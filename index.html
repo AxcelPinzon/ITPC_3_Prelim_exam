@@ -4,6 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage ni Axcel Pogi</title>
+    <style>
+        #div1 {
+            text-align: center;
+        }
+        .redText {
+            color:red;
+            background-color: beige;
+            border-color: white;
+        }
+        /*input {
+            text-align: right;
+        }*/
+        .redText:hover {
+            color:green;
+
+        }
+        #btnLogin {
+            background-color:  rgb(209, 124, 124);
+        }
+        #btnLogin:hover{
+            font-size: large;
+            cursor:pointer;
+            font-size: x-large;
+        }
+
+    </style>
 </head>
 <body>
     
@@ -17,9 +43,9 @@
             <div style="margin-bottom: 1rem;">
             <input type="password" placeholder="Password" value="">
             </div>
-            <button style="color: red;">Login</button>
+            <button style="color: red;" class="redText" id="btnLogin">Login</button>
             <a href="./register.html">
-            <button style="color: blue;">Register</button>
+            <button style="color: blue;" class="redText"id="btnLogin">Register</button>
             </a>
             
         </div>
